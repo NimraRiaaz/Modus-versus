@@ -1,0 +1,101 @@
+.queries{
+    float: left;
+}
+form {
+    max-width: 870px;
+    width: 100%;
+    float: left;
+    margin-bottom: 230px;
+}
+
+.detail {
+    padding: 30px 20px;
+    background-color: #ececec;
+    color: #777777;
+    margin-bottom: 60px;
+}
+
+#map {
+    height: 430px;
+    width: 100%;
+    background-color: grey;
+    margin-bottom: 40px;
+}
+
+iframe {
+    max-width: 1170px;
+    width: 100%;
+    min-height: 430px;
+    height: 100%;
+}
+
+
+.queries h6 {
+    margin-bottom: 30px;
+    font-weight: bold;
+    color: #9e9e9e;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+input[type="text"], input[type="email"] {
+    width: 450px;
+    height: 30px;
+    background: #e5e6e6;
+    display: block;
+    border: 2px grey;
+    border-radius: 4px;
+    border-top: 2px #d9dada solid;
+    border-left: 2px #d9dada solid;
+    margin-bottom: 20px;
+    padding-left: 5px;
+}
+
+.comment-box {
+    background: #e5e6e6;
+    margin-bottom: 35px;
+    border: 2px #d9dada solid;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    width: 200px;
+    height: 60px;
+}
+
+.container-address {
+    max-width: 180px;
+    width: 100%;
+    overflow: hidden;
+    font-style: normal;
+    float: right;
+    margin-right: 70px;
+}
+
+address > div {
+    margin-bottom: 15px;
+    float: left;
+}
+
+.wrapper-address-info span {
+    line-height: 20px;
+    width: 180px;
+}
+
+address > h6 {
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    color: #9e9e9e;
+    font-size: 20px;
+    padding-top: 10px;
+    float: left;
+}
+
+.wrapper-address-info img {
+    float: left;
+    margin-right: 10px;
+}
+
+.wrapper-address-info span{
+    color: #9e9e9e;
+}

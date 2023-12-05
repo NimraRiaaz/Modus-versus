@@ -1,0 +1,151 @@
+
+.navigation {
+    overflow: hidden;
+    margin: 15px;
+}
+.navigation ul{
+    overflow: hidden;
+    float: left;
+}
+.navigation li{
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 15px;
+}
+.navigation li >a{
+    display: block;
+    text-decoration: none;
+    border-bottom: 3px #666666 groove;
+    background-color: #9e9e9e;
+    border-radius: 5px;
+    color: white;
+    padding: 7px 10px;
+    vertical-align: center;
+}
+.navigation li:hover a{
+    border-bottom: 3px #d6655c groove;
+    background-color: #e8645a;
+    border-radius: 5px;
+}
+.navigation li:active a{
+    border-bottom: 3px #3f6b67 groove;
+    background-color: #528b86;
+    border-radius: 5px;
+}
+.portfolio{
+    overflow: hidden;
+}
+.portfolio-album{
+    overflow: hidden;
+    margin-bottom: 60px;
+}
+ .portfolio-album li {
+    overflow: hidden;
+    float: left;
+    margin-bottom: 25px;
+    margin-right: 25px;
+}
+.portfolio li:nth-child(4n){
+    margin-right: 0px;
+}
+.portfolio-item {
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+.portfolio-item span{
+    float: left;
+}
+    .xoxo{
+        position: absolute;
+        display: none;
+        background-color: #83ccc5;
+        left: 0px;
+        top: 0px;
+        width: 270px;
+        height: 270px;
+    }
+    .hover-content{
+        overflow: hidden;
+        position: absolute;
+        float: left;
+        top: 105px;
+        left: 85px;
+    }
+
+    .hover-content li:first-child{
+        margin-right:10px;
+    }
+    .hover-content img{
+        vertical-align: middle;
+    }
+    .hover-content a{
+        float: left;
+        background-color: #75b6b1;
+        border-radius: 5px;
+        padding: 10px;
+        margin-bottom: 0;
+        margin-right: 10px;
+        display: inline-block;
+        width: 23px;
+        height: 20px;
+    }
+    .xoxo h4 {
+        background-color: #83ccc5;
+        color: white;
+        position: absolute;
+        top: 200px;
+        left: 92px;
+    }
+    .hover-content a:hover{
+        background-color: #e8645a;
+    }
+    .portfolio-item:hover  .xoxo{
+        display:block;
+    }
+.pagination{
+    overflow: hidden;
+    max-width: 570px;
+    width: 100%;
+    margin: 0 auto 60px;
+}
+.pagination ul{
+    overflow:  hidden;
+    float: left;
+}
+.pagination li{
+    float: left;
+    margin-right: 10px;
+    height: 40px;
+    width: 40px;
+}
+.pagination li a {
+    display: block;
+    border-bottom: 3px #838383 groove;
+    background-color: #9e9e9e;
+    border-radius: 9px;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    height: 16px;
+    color: white;
+}
+
+.pagination li:hover a{
+    border-bottom: 3px #d6655c groove;
+    background-color: #e8645a;
+    border-radius: 9px;
+}
+.pagination li:active a{
+    border-bottom: 3px #3f6b67 groove;
+    background-color: #528b86;
+    border-radius: 9px;
+}
+
+.pagination li:first-child{
+    margin-right: 30px;
+}
+.pagination li:last-child{
+    margin-left: 10px;
+    margin-right: 0;
+}

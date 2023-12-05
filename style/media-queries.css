@@ -1,0 +1,185 @@
+@media screen and (max-width: 1160px) {
+    .main-menu a {
+        padding: 10px;
+    }
+
+    .logo {
+        padding-left: 20px;
+    }
+
+    .content {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .portfolio-album {
+        width: 900px;
+        margin: 0 auto;
+    }
+
+    .portfolio ul {
+        display: block;
+        text-align: center;
+    }
+    .wrapper-footer, .content-footer {
+        background-color: #76c7c0;
+        padding-left: 10px;
+    }
+
+    .content-footer > div {
+        display: block;
+        padding-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    .breadcrumbs-content {
+        display: none;
+    }
+
+    .main-menu li {
+        display: inline;
+    }
+
+    .main-menu a {
+        color: white;
+    }
+
+    .main-menu a:hover {
+
+        background-color: #62a29e;
+        border-bottom: 3px #528b86 groove;
+        border-radius: 6px;
+    }
+
+    .portfolio-album {
+        width: 615px;
+        margin: 0 auto;
+    }
+
+    .portfolio li {
+        margin-right: 15px;
+        display: inline-block;
+        margin-left: 15px;
+    }
+
+}
+
+@media screen and (max-width: 780px) {
+    .container-header {
+        overflow: visible;
+    }
+
+    .main-menu ul {
+        display: none;
+        position: relative;
+        padding-top: 0;
+    }
+
+    .main-menu.expand ul {
+        display: block;
+        width: 100%;
+        background-color: #ccc;
+        position: absolute;
+        top: 70px;
+    }
+
+    .main-menu li {
+        display: inline-block;
+    }
+
+    a.opener {
+        display: inline-block;
+        vertical-align: top;
+        margin: 20px;
+        float: right;
+    }
+
+    .portfolio-album {
+        width: 615px;
+        margin: 0 auto;
+    }
+
+    .blog {
+        margin-left: 175px;
+    }
+
+}
+
+@media screen and (max-width: 680px) {
+    .portfolio-album {
+        width: 305px;
+        margin: 0 auto;
+    }
+    .pagination {
+        width: 50%;
+    }
+
+    .pagination li {
+        margin-bottom: 8px;
+    }
+
+    .blog {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 520px) {
+
+    .main-menu ul {
+        float: none;
+        margin-top: 50px;
+        background-color: #76c7c0;
+    }
+
+    .main-menu.expand ul {
+        display: block;
+        width: 100%;
+        background-color: #76c7c0;
+        position: absolute;
+        top: 20px;
+    }
+
+    .main-menu li {
+        float: none;
+        display: block;
+    }
+
+    .main-menu a {
+        display: block;
+        border-bottom: 1px solid #36ad9f;
+        margin: 0;
+        padding: 3px;
+    }
+
+    a.opener {
+        display: inline-block;
+        vertical-align: top;
+        margin: 20px;
+        float: right;
+        padding: 10px;
+    }
+
+    .main-menu a:hover {
+        background-color: #62a29e;
+        border-bottom: 3px #528b86 groove;
+        border-radius: 6px;
+    }
+
+
+    .wrapper-footer .content-footer {
+        padding-bottom: 0;
+    }
+    .about {
+        padding: 15px;
+        font-size: 16px;
+        margin-bottom: 10px;
+        overflow: hidden;
+    }
+
+    .related-links {
+        padding: 15px;
+        margin-bottom: 10px;
+    }
+
+}
